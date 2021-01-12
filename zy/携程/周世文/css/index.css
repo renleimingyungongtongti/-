@@ -1,0 +1,306 @@
+.w{
+	width:1200px;
+	margin:0 auto;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.all{
+	width:100%;
+	overflow: hidden;
+	background-color: #F6F6F6;
+}
+.title_01{
+	height:31px;
+	line-height: 31px;
+}
+.title_01 li:nth-child(1)::before {
+	position: relative;
+	top:15px;
+	left:20px;
+	content: '';
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #3983E5;
+	transform: rotate(135deg);
+}
+.title_01 .fl li{
+	float:left;
+	padding:0 15px;
+	font-weight: bold;
+	font-size: 14px;
+}	
+.title_01 .fl li:nth-child(1) a{
+	color:#3983E5;
+}
+.title_01 .fr li a{
+	font-size: 10px;
+	color:#3983E5;
+	margin: 0px 10px;
+}
+.title_01 .fr li::after{
+	content: '';
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #3983E5;
+	transform: rotate(-45deg);
+}
+.country{
+	overflow: hidden;
+	background-color: white;
+	border:1px solid lightgray;
+	border-top: 2px solid #3983E5;
+}
+.city{
+	margin-left: 15px;
+	height:40px;
+}
+.city li:nth-child(1){
+	background-color: #3983E5;
+	color:aliceblue;
+	border-radius:10%
+}
+.city li{
+	float:left;
+	padding: 2px 6px;
+	margin:10px 10px;
+	color:#3983E5;
+}
+.city li:hover{
+	background-color: #3983E5;
+	color:aliceblue;
+	border-radius:10%
+}
+.picture{
+	clear:both;
+	margin-left: 10px;
+}
+.picture_01{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;;
+	align-items: space-around;	
+	width:940px;
+	height:352px;
+} 
+.picture_01 ul{		
+	margin:0px 5px;	
+	width:221px;
+	height:166px;
+}
+.picture_01 li:nth-child(2){	
+	position: relative;
+	top:-130px;
+	left:55px;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background-color: rgba(3, 19, 36, 0.6);
+	text-align: center;
+	line-height: 50px;
+	color:white;	
+}
+.picture li h3{
+	font-weight: bolder;
+	margin:0 10px;
+	border-bottom: 1px solid white;
+} 
+.picture li span{
+	color:orange;
+	font-size: 18px;
+} 
+.picture_02 img{
+	height:343px;
+}
+/* 海外酒店 */
+.travel_01{
+	margin-top: 20px;
+}
+.title_02{
+	height:31px;
+	line-height: 31px;
+}
+.title_02 li:nth-child(1)::before {
+	position: relative;
+	top:15px;
+	left:35px;
+	content: '';
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #3983E5;
+	transform: rotate(135deg);
+}
+.title_02 .fl li{
+	float:left;
+	padding:0 15px;
+	font-weight: bold;
+	font-size: 14px;
+}	
+.title_02 .fl li:nth-child(1) a{
+	color:#3983E5;
+}
+.title_02 .fr li a{
+	font-size: 10px;
+	color:#3983E5;
+	margin: 0px 10px;
+}
+.title_02 .fr li::after{
+	content: '';
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #3983E5;
+	transform: rotate(-45deg);
+}
+.country_01{
+	overflow: hidden;
+	background-color: white;
+	border:1px solid lightgray;
+	border-top: 2px solid #3983E5;
+}
+.country_01 .name{
+	width:250px;
+	text-indent: 1em;
+	border-right:1px lightgray dotted;
+}
+.country_01 .name ul li{
+	margin:15px 5px;
+}
+.country_01 .name h2{
+	color:black;
+	padding-top: 15px;
+}
+.country_01 .name ul li:nth-child(1){
+	margin-top:0;
+}
+.country_01{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: space-between;	
+}
+.country_01 .citys{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: space-between;	
+}
+.image{
+	width:925px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: space-between;	
+}
+.image_01{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: space-between;	
+	width:695px;
+	height:352px;
+} 
+.image_01 ul{		
+	margin:0px 0px 5px 15px;	
+	width:211px;
+	height:166px;
+}
+.image_01 li:nth-child(2){	
+	position: relative;
+	top:-130px;
+	left:55px;
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background-color: rgba(3, 19, 36, 0.6);
+	text-align: center;
+	line-height: 50px;
+	color:white;	
+}
+.image li h3{
+	font-weight: bolder;
+	margin:0 10px;
+	border-bottom: 1px solid white;
+} 
+.image li span{
+	color:orange;
+	font-size: 18px;
+} 
+.image_02 img{
+	height:343px;
+}
+/*国际机票酒店部分开始*/
+.travel_02{
+	margin-top: 20px;
+}
+.title_03{
+	height:31px;
+	line-height: 31px;
+}
+.title_03 li:nth-child(1)::before {
+	position: relative;
+	top:15px;
+	left:35px;
+	content: '';
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #3983E5;
+	transform: rotate(135deg);
+}
+.title_03 .fl li{
+	float:left;
+	padding:0 15px;
+	font-weight: bold;
+	font-size: 14px;
+}	
+.title_03 .fl li:nth-child(1) a{
+	color:#3983E5;
+}
+.title_03 .fr li a{
+	font-size: 10px;
+	color:#3983E5;
+	margin: 0px 10px;
+}
+.title_03 .fr li::after{
+	content: '';
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #3983E5;
+	transform: rotate(-45deg);
+}
+.line {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: space-between;	
+	margin-left: 20px;
+}
+.line ul{
+	width:220px;
+	height:120px;
+	background-color: #F8F8F8;
+	margin: 5px 5px;
+}
+.line li{
+	margin:5px 15px;
+	padding-top:10px;
+}
+.line ul li:last-child{
+	width:55px;
+	text-align: center;
+	padding:5px 5px;
+	background-color: orange;
+	color:white;
+	border-radius: 10%;
+	position: relative;
+	top:-35px;
+	left:130px;
+}
+.line span{
+	color:#FF6D40;
+	font-size: 20px;
+	font-weight: bold;
+}
+

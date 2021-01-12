@@ -1,0 +1,26 @@
+.nav_footer {
+  width: 100%;
+  background: #2577E3;
+}
+.nav_footer .link {
+  width: 1200px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+.nav_footer .link ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_footer .link ul li {
+  text-align: center;
+  padding: 0.8rem 0.5rem;
+}
+.nav_footer .link ul li > a {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_footer .link ul li:hover {
+  background: #0b74a5;
+}

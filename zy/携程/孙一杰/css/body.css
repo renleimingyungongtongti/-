@@ -1,0 +1,24 @@
+.body {
+  width: 100%;
+  background: white;
+}
+.body .link {
+  width: 1180px;
+  margin: auto;
+  font-size: 0.6rem;
+}
+.body .link ul {
+  display: flex;
+  justify-content: space-between;
+}
+.body .link ul h3 {
+  margin-top: 5px;
+  padding: 0.3rem 0.2rem;
+  background: #74A8ED;
+}
+.body .link ul li {
+  padding: 0.5rem 0;
+}
+.body .link ul li a:hover {
+  color: #ddd;
+}
